@@ -1,0 +1,40 @@
+This repository contains Java programs that implement fundamental OOP concepts;
+
+Abstraction
+Concepts Covered:
+Abstract class Appliance
+Abstract method turnOn()
+Concrete subclasses Fan and TV
+Demonstrates abstraction through method implementation in subclasses
+Abstract class Appliance defines turnOn().
+Fan and TV extend Appliance and implement turnOn().
+Objects of Fan and TV are created and their methods invoked.
+
+Encapsulation
+Concepts Covered:
+Private attributes (name and grade)
+Public getter and setter methods
+Grade validation (should be between 0-100, otherwise set to 0)
+Creates a Student class with private attributes.
+Uses setters to ensure grade is within valid range.
+Demonstrates encapsulation by restricting direct access to attributes.
+
+Exception Handling
+Concepts Covered:
+Handling ArithmeticException
+User input validation
+try-catch-finally block implementation
+Accepts two numbers from the user.
+Attempts to divide the first number by the second.
+Catches division by zero error and displays an appropriate message.
+
+Method Overloading and Overriding
+Method Overloading
+Demonstrates multiple multiply() methods:
+One takes two integers.
+One takes three integers.
+Method Overriding
+Demonstrates polymorphism using makeSound() method.
+Dog and Cat classes override makeSound() method of Animal class.
+Calls overridden methods dynamically using polymorphism.
+
